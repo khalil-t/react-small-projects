@@ -1,0 +1,30 @@
+.CardDeal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10vh;
+    margin-top: 160px;
+}
+.CardDeal .CardDeali .CardDealimg{
+    Width:100%}
+    .CardDeal .CardDeald{
+     width: 50%;
+    }
+    .CardDeal .CardDeali {
+        Width:50%}
+
+        .CardDeal .CardDeald .CardDealp{
+font-weight: 400;    
+font-size: 18px;    
+line-height: 30px;
+width: 70%;
+
+color: #ddd;}
+          
+
+
+           .CardDeal .CardDeald .CardDealh{
+font-weight: 600;   
+font-size:48px ;     
+line-height: 76.8px;   }
+      

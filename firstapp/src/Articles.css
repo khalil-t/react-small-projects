@@ -1,0 +1,87 @@
+.three{
+  background-color: #FFFFFF;
+  Width: 264px;
+  height: 331.3px;
+  display: flex;
+  padding: 15px;
+  border-radius: 16px;
+  cursor: pointer;
+  align-items: end;
+  margin: 0px;
+}
+.three a{
+  background-color:white ;text-decoration: none;
+}
+.klch{  display: grid;
+  grid-template-columns: repeat(3, 1fr);; /* Adjust column width as needed */
+  gap: 56px; /* Adjust gap between items */;
+padding-bottom: 101px;
+}
+.three .fotota3lwl  {
+  width: auto;
+ padding-right: 0%;
+    background: transparent;
+  }
+  .three .txt1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.87px;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #2B2C34;
+     }
+
+
+
+  .three .txt2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.09px;
+    text-align: left;
+    background-color: transparent;
+    
+  }
+  .three .txt3{
+background-color: transparent;
+padding-top: 4px;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.71px;
+text-align: left;
+
+  }
+.three .fotota3lwl .lwl {
+  width: 260px;
+  height: 198px;
+  gap: 0px;
+  border-radius: 16px ;
+  opacity: 0px;
+  
+}
+.three .fotota3zawj  {
+  width: Fixed (260px)px;
+  height: Hug (57px)px;
+  gap: 12px;
+  opacity: 0px;
+background-color: transparent;  
+display: flex;
+align-items: center;
+}
+.three .fotota3zawj .zawj {
+  width: 57px;
+  height: 57px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+  
+}
+.three .fihtxt{ text-align: left;
+  padding-top: 8px;
+  background-color: transparent;
+  color: #2B2C34;
+}
+.index{
+  background-color: transparent;
+}

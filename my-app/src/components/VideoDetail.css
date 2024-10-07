@@ -1,0 +1,38 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: 80% 1fr; /* Main video takes 80%, related videos take the remaining space */
+    gap: 16px; /* Gap between the main video and related videos */
+    height: 100vh; /* Ensure it takes full viewport height */
+    background-color:black;
+  }
+  
+    .main-video {
+        flex-direction: column;
+        justify-content: start;
+        grid-column: 1 / 2;
+        display: flex;
+        justify-content: right;
+        align-items:center ;
+        background-color: black;
+        align-items: baseline;
+    }
+
+  
+  .related-videos {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Gap between each related video */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .react-player {
+    width: 100% !important;
+    height: 80% !important;
+  }
+  
+  .main-video .h3{
+  color: white;
+  font-size: 26px;
+  padding-left: 8px;
+}

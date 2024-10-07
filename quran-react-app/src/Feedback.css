@@ -1,0 +1,44 @@
+.feedback{
+
+    background-color: rgb(29 33 33 );;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback .feedback1 .lgive{
+
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+.feedback .feedback2{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.feedback .feedback2 input{
+    margin-top: 16px;
+ display: block;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    }
+
+    .feedback .feedback2 .feedback3{
+   width: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   margin-top: 16px;
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+   background-color: rgb(254, 77, 77);
+
+        }
+    .feedback .feedback2 input:focus{
+    outline: none;
+        }

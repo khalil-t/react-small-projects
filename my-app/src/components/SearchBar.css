@@ -1,0 +1,18 @@
+.paper{
+
+width: 100%;
+display: flex;
+align-items: center;
+border-radius: 510px;
+}
+.paper .search{
+
+  background-color: transparent;
+  border: none;
+  padding: 12px;
+    }
+
+    .paper div .search:focus{
+
+outline: none;
+          }

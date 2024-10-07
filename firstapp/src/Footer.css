@@ -1,0 +1,16 @@
+.lfooter{
+color: red;
+margin: 36px 178px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    font-weight: 700;
+font-size: 20px;
+color: white;
+gap: 168px;
+}
+.lfooter .icones{
+    display: flex;
+    gap: 16px;
+}

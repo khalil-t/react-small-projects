@@ -1,0 +1,20 @@
+ .two {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ color: red;text-align: center;
+}
+.two .txt{margin-top: 55.3px;}
+.two .txt .h2{
+   font-weight: 700;
+    font-size: 64px;
+margin: 0px;
+color: #FFFFFF;
+   }
+.two .txt .h5{
+   font-weight: 400;
+margin: 16px 0px 40px;
+    font-size: 20px;
+    color: #01C38E;
+   }

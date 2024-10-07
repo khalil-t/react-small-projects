@@ -1,0 +1,213 @@
+div{
+    background-color: #11101d;
+    color: white;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav  img{
+    padding: 0px 56px;
+
+width: 120px;
+height: 82px;
+}
+.nav .links   {
+    padding:0px ;
+   }
+
+.nav .links .link  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+margin: 0px;}
+
+.nav .links .link .link1 {
+    margin: 36px 56px;
+    cursor: pointer;
+
+}
+.nav .links .link .whitelink {
+    margin: 36px 56px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.nav .links .link .link1 .link2{
+    text-decoration: none;
+    color: #dddd;
+}
+.onesmall {
+    display: none;  
+  }
+  .sidebare{display: none;}
+@media (max-width: 576px) {
+    .nav {
+      display: none; /* Hide on small screens */
+    }
+  
+    .onesmall {
+      display: flex; 
+      align-items: center;
+justify-content: space-between;  
+width: 100vh;    
+    }
+    .onesmall .hh{
+        padding: 0px 56px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    .onesmall .hh{
+        padding: 0px 56px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+     .sidebare{
+        
+        display: none;
+        flex-direction: column;
+        background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+        position: absolute;
+        top: 60px; /* Adjust this value based on the height of your icon */
+        right: 0;
+        margin: 8px 16px; /* Adjusted to mx-4 my-2 in Tailwind CSS */
+        min-width: 140px;
+        padding: 16px;
+        border-radius: 16px; /* Adjusted to rounded-xl in Tailwind CSS */
+        transition: all 0.3s ease-in-out;  }
+    .onesmall img{
+        padding: 0px 56px;
+
+        width: 82px;
+        height: 82px;
+    }
+    .onesmall .hh .i{
+display: block;
+font-size: 24px;
+cursor: pointer;
+    }
+    .sidebare.visible {
+        display: flex;
+        margin: 0;
+        padding: 8px 56px;
+        -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    
+    @-webkit-keyframes slide-top {
+        0% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+        }
+        100% {
+            -webkit-transform: translateY(-10px);
+                    transform: translateY(-10px);
+        }
+    }
+    
+    @keyframes slide-top {
+        0% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+        }
+        100% {
+            -webkit-transform: translateY(-10px);
+                    transform: translateY(-10px);
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .sidebare.visible .links{
+        background: linear-gradient(0deg, rgba(20,16,29,1) -10%, rgba(255, 255, 255, 0.228) 100%);
+        border-radius: 10px;
+    }
+    .sidebare.visible .links .link{
+        list-style-type: none;
+        color: #ffff;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 32px;
+
+    }
+    .sidebare.visible .links .link .link1 .link2{
+     margin-bottom: 18px;
+     display: block;
+cursor: pointer;
+    }
+   
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .one{
+        width: 100%;
+        overflow: hidden;    }
+    .nav{
+        width: 100%;
+    }
+   .nav .links .link .link1{
+
+    white-space: nowrap;
+    margin: 16px;
+   }
+   .nav .links .link {
+
+padding: 0px 16px;
+   }
+.nav img{
+    padding: 0px 16px;
+}
+   .nav .links .link .whitelink{
+    margin: 16px;
+
+    white-space: nowrap;
+   }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav .links .link .link1{
+
+        white-space: nowrap;
+        margin: 20px;
+       }
+    
+       .nav .links .link .whitelink{
+        margin: 20px;
+    
+        white-space: nowrap;
+       }
+       .nav .links .link {
+
+        padding: 0px 16px;
+           }
+           .nav img {
+            padding: 0px 20px;
+            width: 120px;
+            height: 82px;
+        }
+   
+}

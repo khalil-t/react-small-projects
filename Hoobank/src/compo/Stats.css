@@ -1,0 +1,131 @@
+.letous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+}
+.all .letous .title{
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  display: block;
+  background: linear-gradient(to right, #33BBCF 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  padding-left: 11px;
+  white-space: nowrap;
+
+  ;
+}
+ .letous .subtitle{
+    font-weight: 600;
+    font-size: 40px;
+    display: block;
+  }
+  .all{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+
+
+
+  .letousp .subtitle{
+    font-weight: 600;
+    font-size: 40px;
+    display: block;
+  }
+  .letousp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0% 5%;
+}
+.all .letousp .title{
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    background: linear-gradient(to right, #33BBCF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    padding-left: 11px;
+    white-space: nowrap;
+    ;
+  }
+
+  @media (min-width: 0px) and (max-width: 576px) {
+    .all {
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      display: flex;
+  }
+
+  .letous .subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+}
+.letousp .subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .all {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    margin: 0%;
+}
+.home {
+  display: flex;
+  height: 80vh;
+  padding-bottom: 2%;
+}
+.back1 {
+  top: 36%;
+  left: 3%;
+  position: relative;
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+  width: 200px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  z-index: 0;
+  display: none;
+}
+.letous .subtitle {
+  font-weight: 600;
+  font-size: 30px;
+  display: block;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+  .letous .subtitle {
+    font-weight: 600;
+    font-size: 19px;
+    display: block;
+}
+
+
+}

@@ -1,0 +1,331 @@
+.home .main .hero{
+
+    display: flex;
+    background: #272727;
+    Width:400px;
+Height:40px;
+border-radius: 10px;
+align-items: center;
+gap: -5px;
+justify-content: space-around;
+}
+.home .main .hero p{
+
+    padding: 0px 8px 0px 0px;
+        font-size: 18px;
+    color: gray;
+    font-weight: 400;
+}
+.home .main .hero span{
+
+    font-size: 18px;
+ color: white;
+    font-weight: 400;
+ }
+.home {
+    display: flex;
+    height: 80vh;
+    padding-bottom: 143px;
+}
+.home .llimg{
+    right: 0%;
+    position: absolute;
+    width: 40%;
+height: 70%;
+z-index: 20;
+
+}
+.home .main{
+
+    margin: 100px 0px 0px 135px;
+
+}
+.home .main p{
+color: #dddd;
+font-weight: 300;
+font-size: 18px;
+}
+.home .main .ltxt{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 100.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+margin: 16px 0px 0px 0px;
+}
+.home .main .ltxt span{
+    background: linear-gradient(
+        to left,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* Ensures text is transparent if -webkit-text-fill-color is not supported */
+    display: inline-block;
+}
+
+.home .main .GetStarted div{
+    position: absolute;
+    right: 60%;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #33bbcf;
+    border: 1px solid;
+    border-color: linear-gradient(
+        to left,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+    );;
+}
+.home .main .Payment{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 100.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0px;
+}
+.back1{
+    top: 36%;
+    left: 3%;
+    position: relative;
+     background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);    width: 200px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    z-index: 0;
+}
+.back2{
+    top: -30%;
+    left: -60%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}.back3{
+    bottom: 89%;
+    left: 0%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+}
+@media (max-width: 576px) {
+    .home {
+        display: flex;
+        height: 34vh;
+        margin-bottom: 0px;
+    }
+    .home .llimg{
+    display: none;
+    
+    }
+    .home .main .hero span{
+
+        font-size: 12px;
+     color: white;
+        font-weight: 400;
+     }
+    .home .main .hero p{
+
+        padding: 0px 8px 0px 0px;
+            font-size: 12px;
+        color: gray;
+        font-weight: 400;
+    }
+    .home .main .hero{
+
+        display: flex;
+        background: #272727;
+        Width:fit-content;
+    Height:40px;
+    border-radius: 10px;
+    align-items: center;
+    gap: -5px;
+    justify-content: space-around;
+    }
+    .home .main .ltxt{
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 100.8px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        line-height: 1.5;
+        text-align: center;
+
+    }
+    .home .main .Payment{
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 100.8px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin: 0px;
+        line-height: 1.5;
+        text-align: center;
+
+    }
+    .home .main p{
+        color: #dddd;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        }
+
+        .back1{
+            display: none;
+        }
+        .back2{
+            display: none;
+        }
+        .back3{
+            display: none;
+        }
+        .home .main{
+
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        align-items: center;
+        }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.home .ddiv{
+
+    width: 20%;
+}
+.back1{
+    
+}
+.back2{
+    top: -30%;
+    left: -163%;
+}
+.back3{
+    bottom: 89%;
+    left: -108%;
+}
+
+
+.home .llimg {
+    right: 0%;
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    z-index: 20;
+}
+
+
+.home .llimg {
+    right: 0%;
+    position: absolute;
+    width: 34%;
+    height: 54%;
+    z-index: 20;
+    bottom: 15%;
+}
+.home .main {
+    margin: 80px 0px 0px 90px;
+}
+.home .main .ltxt {
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 58.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 16px 0px 0px 0px;
+}
+.home .main .Payment {
+    margin: 20px;
+    display: block;
+    margin: 20px;
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 100.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0px;
+    margin-top: -25px;
+}
+
+.home .main p {
+    margin: 0px;
+    color: #dddd;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav .links .link .link1{
+
+        white-space: nowrap;
+        margin: 20px;
+       }
+    
+       .nav .links .link .whitelink{
+        margin: 20px;
+    
+        white-space: nowrap;
+       }
+    .home .ddiv{
+        width: 20%;
+    }
+    .home .llimg {
+        bottom: 0%;
+        right: 0%;
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        z-index: 20;
+    }
+    .home .main {
+        margin: 80px 0px 0px 50px;
+    }
+    .home .main .ltxt {
+        font-size: 57px;
+        font-weight: 600;
+        line-height: 67.8px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin: 16px 0px 0px 0px;
+    }
+
+    .home .main .Payment {
+        font-size: 57px;
+        font-weight: 600;
+        line-height: 100.8px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin: 0px;
+    }
+
+
+
+}

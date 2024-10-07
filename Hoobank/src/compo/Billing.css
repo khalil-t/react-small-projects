@@ -1,0 +1,108 @@
+.product{
+    margin-top:100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.product .back2{
+    bottom: 83%;
+    left: 30%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #234d75 100%);
+    filter: blur(123px);
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+}
+
+.product .imgp{
+display: block;
+max-width: 100%;
+width:50% ;
+}
+.product .productd{
+    align-items: flex-start;
+    display: flex;
+    width: 470px;
+    justify-content: center;
+    flex-direction: column;
+}
+.product .productd .productk{
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.product .productd .productimg{
+    display: flex ;
+    width:50% ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+.product .productd .productp{
+    display: block;
+    width: 100%;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ddd;
+}
+.product .producth{
+  font-weight: 600;
+  font-size: 48px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .product {
+        flex-direction: column;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+    }
+    .product .producth {
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+    .product {
+        flex-direction: column;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+    .product {
+        padding: 1%;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+    }
+    .product .producth {
+        font-weight: 600;
+        font-size: 37px;
+        margin-bottom: 0px;
+    }
+
+}
+

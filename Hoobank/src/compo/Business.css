@@ -1,0 +1,121 @@
+.features {
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.features .context .context-t {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 76.8px;
+}
+
+.features .context .context-p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #ddd;
+    line-height: 30.6px;
+}
+
+.features div .FeatureCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 36px;
+    padding: 20px 16px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+.features div .FeatureCard .FeatureCardi{
+   background-color: transparent;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.features div .FeatureCard .FeatureCard1 .FeatureCardh {
+    font-weight: 600;   
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.features div .FeatureCard .FeatureCard1 .FeatureCardp {
+    font-weight: 400;   
+    font-size: 16px;
+    margin: 0px;
+    color: #ddd;
+    max-width: 366px;
+}
+
+/* Combined hover effect for both .FeatureCard and .FeatureCard1 */
+.features div .FeatureCard:hover
+{
+    background-color: #dddddd38;
+}
+.features div .FeatureCard .FeatureCard1  {
+   background-color: transparent;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px) {
+    
+    .features {
+        flex-direction: column;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5%;
+    }
+    .features .context .context-t {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55.8px;
+        margin-bottom: 0px;
+    }
+    
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+
+.features {
+    flex-direction: column;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+    .features {
+        margin-top: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2%;
+        padding: 2%;
+    }
+    .features .context .context-t {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44.8px;
+        margin-bottom: 0px;
+    }
+    .features .context .context-p {
+        font-weight: 300;
+        font-size: 12px;
+        color: #ddd;
+        line-height: 21.6px;
+    }
+}
+

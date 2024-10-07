@@ -1,0 +1,19 @@
+.Clients .Clientsd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Clients .Clientsd .Clientsid {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.Clients .Clientsd .Clientsid .Clientsimg{
+  width: 50%;
+}
+.Clients{
+    margin-bottom: 100px;
+}

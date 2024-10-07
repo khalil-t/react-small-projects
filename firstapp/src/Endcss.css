@@ -1,0 +1,88 @@
+.App1{
+    background-color: #101722;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.App1 h1{
+   background-color: #101722;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.38px;
+    text-align: left;
+    color: white;
+  padding-bottom: 24px;
+}
+.App1 img{
+    background-color: #101722;
+    width: 405.95px;
+height: 611.97px;
+gap: 0px;
+margin: 110px 96px 153px 154px;
+
+}
+.App1 form{
+    background-color: #101722;
+} 
+.App1 form div{
+    background-color: #101722;
+    padding-bottom: 24px;
+
+} 
+.App1 form div label{
+    background-color:#101722;
+    ;
+} 
+.App1 form div  textarea{
+    background-color:  #101722;
+    width: 585px;
+height: 263px;
+top: 176px;
+gap: 0px;
+border-radius: 40px ;
+opacity: 0px;
+background-color: white;
+resize: none;
+padding: 13px 45px;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.19px;
+text-align: left;
+color:  #04134EB2;
+border: none;
+padding-bottom: 24px;
+outline: none;
+
+} 
+
+.App1 form div .ta3name{
+    border: none;
+    background-color: white;
+    width: 585px;
+height: 51px;
+outline: none; 
+border-radius: 80px ;
+color:  #04134EB2;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.19px;
+text-align: left;
+padding: 13px 45px;
+
+} 
+.App1 button{
+border-color: #01C38E;
+width: Hug (120px)px;
+height: Hug (45px)px;
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 16px ;
+opacity: 0px;
+color: white;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.64px;
+text-align: left;
+position: relative;
+right: -80%;
+}

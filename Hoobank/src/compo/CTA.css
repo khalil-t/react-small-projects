@@ -1,0 +1,68 @@
+.CTA{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.CTA .CTAs{
+
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  padding: 12px 8px;
+  border-radius: 10px;
+}
+.CTA .CTAs  .CTAh{
+
+ font-weight: 600;
+ font-size: 48px;
+  }
+
+  .CTA .CTAs  .CTAp{
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #dddd;
+     }
+
+     .back2{
+
+        left: 0%;
+        position: relative;
+        background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+        filter: blur(123px);
+        width: 170px;
+        height: 170px;
+     }
+
+
+     @media (min-width: 0px) and (max-width: 576px) {
+      .CTA .CTAs {
+        margin: 2%;
+        background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+        padding: 12px 8px;
+        border-radius: 10px;
+    }
+    .CTA .CTAs .CTAh {
+      font-weight: 600;
+      font-size: 30px;
+  }
+    
+}
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .CTA .CTAs {
+      background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+      padding: 12px 8px;
+      border-radius: 10px;
+      margin: 2%;
+  }
+  .CTA .CTAs .CTAh {
+    font-weight: 600;
+    font-size: 42px;
+}
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    
+
+  }

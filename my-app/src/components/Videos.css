@@ -1,0 +1,52 @@
+.videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Set minimum width to 200px */
+    gap: 16px;
+    background-color: black;
+    border-left: 2px solid white;
+    margin: 0px;
+    overflow-y: auto; /* Allow vertical scrolling */
+    padding: 0; /* Remove any incorrect spacing */
+    height: 100%; /* Ensure the grid container takes the full height */
+    padding-left: 8px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  } 
+
+    .videos .link{
+
+text-decoration: none;
+height: 200px
+      }
+
+
+      .videos .link .inside{
+
+        text-decoration: none;
+        
+        background-color: rgba(121, 121, 121, 0.493);
+        height: 100%;
+              }
+
+
+              .videos .link .inside h3{
+color: white;
+             font-size: 16px;
+                      }
+
+                 .videos   .link  .css-1htoy5l-MuiCardMedia-root {
+                        display: block;
+                        -webkit-background-size: cover;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        -webkit-background-position: center;
+                        background-position: center;
+                        height: 58%;
+                        max-width: 100%;
+                    }
+
+                    .videos .link .inside h3 {
+                        color: white;
+    font-size: 12px;
+    padding: 4px;
+                    }

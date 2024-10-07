@@ -1,0 +1,47 @@
+.surahpresentation{
+padding: 16px;
+     background-color:  rgb(29 33 33 ); 
+     color: white;
+}
+.surahpresentation .titre{
+ text-align: center;
+ 
+    }
+
+
+    .surahpresentation .titre .surahname{
+     font-size: 64px;
+     font-weight: 500;
+     margin-bottom: 6px;
+        }
+
+
+        .surahpresentation .titre .nbayahs{
+          font-size: 20px;
+          font-weight: 400;
+          padding-bottom: 8px;
+             }
+             
+             .surahpresentation .ayat {
+               text-align: right;
+               padding-top: 16px;
+               padding-bottom: 20px; /* Adjusted padding-bottom */
+               font-size: 32px;
+               display: block;
+               border-bottom: 1px solid gray; 
+               transition: box-shadow 0.1s ease-in-out;/* Add a border at the bottom of each ayah */
+             }
+             .surahpresentation .ayat:hover {
+               box-shadow: 0 4px 8px white /* Shadow effect on hover */
+             }
+
+
+.loading{
+
+     display: flex;
+     justify-content: center; /* Center horizontally */
+     align-items: center; /* Center vertically */
+     height: 100vh;
+}
+           
+             

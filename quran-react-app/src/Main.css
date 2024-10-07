@@ -1,0 +1,32 @@
+main{   background-color:  rgb(29 33 33 );
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 8px;
+padding-bottom: 16px;
+}
+
+main .immg{
+    width: 200px;
+    height: 200px;
+}
+main input {
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 0.5rem; /* Rounded corners */
+    font-size: 0.875rem; /* Text size */
+    padding: 0.75rem 1rem; /* Padding */
+    width: 50%; /* Width */
+    color: #333; /* Text color */
+    background-color: #f9f9f9; /* Background color */
+    background-color: #333; /* Dark mode background color */
+    border-color: #666; /* Dark mode border color */
+    color: #fff; /* Dark mode text color */
+    placeholder-color: #666; 
+}
+
+main input:focus{
+    outline: none; /* Remove focus outline */
+    border-color: #007bff; /* Focus border color */
+    box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}

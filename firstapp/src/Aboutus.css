@@ -1,0 +1,41 @@
+.main1{
+
+    background-color: hsl(228, 90%, 16%);
+    display: flex;
+    padding: 108px 83px;
+    align-items: center;
+
+}
+.main1 img{background-color: #04134E;
+display: block;
+width: 566px;
+height: 271.28px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.main1 .ta3txt{
+    color: white;
+}
+.main1 .ta3txt h5{
+    padding-top: 0px;
+
+    background-color: #04134E;
+font-size: 40px;
+font-weight: 400;
+line-height: 47.73px;
+text-align: left;
+
+}
+.main1 .ta3txt h2{
+    background-color: #04134E;
+}
+.main1 .ta3txt p{
+    background-color: #04134E;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.64px;
+text-align: left;
+
+}

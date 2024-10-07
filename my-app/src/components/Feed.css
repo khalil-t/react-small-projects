@@ -1,0 +1,15 @@
+.Stack .Box{
+
+
+    margin: 0px;
+}
+.Stack .typo{
+
+width: 34%;
+    background-color: aqua;
+    color: white;
+}
+.one{
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Sidebar takes 250px width, content takes the remaining space */
+    height: 100vh; /* Full height of the viewport */}

@@ -1,0 +1,43 @@
+.linput{
+    width: 168px;
+    height: 48px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffff;
+    border: 3px;
+    border: 3px solid #01C38E; /* Added 'solid' border style */
+    border-radius: 24px;
+}
+
+
+.linput:focus{
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: linear-gradient(to right, #01C38E, #1C01C3); 
+    border-color: white;
+} 
+.lbel{
+    width: 200px;
+    height: 200px;
+   
+}
+.letxt {
+    right: -21%;
+    position: relative;
+    top: -43px;
+    color: #101722;
+    background-color: transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 700;
+}
+.llcheck{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}

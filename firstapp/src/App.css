@@ -1,0 +1,50 @@
+*{ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-color:  #101722;
+margin: 0px;
+ }
+ .App-header .lmg{
+display: block;
+max-width: 100%;
+width: 179.16px;
+height: 48px;
+gap: 8px;
+opacity: 0px;
+
+ }
+ .App .App-header .all{display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+gap: 272px;
+padding: 32px;
+
+  }
+ .ul{
+
+padding: 0px;
+  display: flex;
+
+ }
+ .li{
+  padding: 10px 56px ;
+  list-style: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 24px;
+
+ }
+ .li a{
+  text-align: center;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+ }
+ .buttons-container{
+  display: block;
+ }
+
+ 

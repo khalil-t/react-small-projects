@@ -1,0 +1,16 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    gap: 25%;
+    width: 100%;
+    justify-content: center;
+}
+.Footer  .Footerdiv{
+display: flex;
+gap: 30px;
+}
+.Footer  .Footerp{
+    white-space: nowrap;
+    color: grey;
+    font-size: 18px;
+}

@@ -1,0 +1,117 @@
+footer{
+
+    display: flex;
+    flex-direction: row;
+    padding:  10%;
+    background-color:  rgb(31 41 55);;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+}
+footer .letxt{
+    display: block;
+    width: 45%;
+}
+footer .letxt h1{
+    padding-bottom: 16px;
+    font-size: 36px;
+
+}
+
+footer .letxt h4{
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+footer .letxt p{
+    font-size: 20px;
+}
+
+footer .formcontainer {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 45%;
+    border-radius: 7px;
+    padding: 8px;
+}
+footer .formcontainer .contactForm{
+padding: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer .formcontainer .contactForm h2{
+
+font-size: 32px;
+font-weight: 500;
+margin-bottom: 16px;
+
+
+}
+
+footer .formcontainer .contactForm .input1{
+    font-size: 20px;
+    padding: 8px;
+            width: 170%;
+            height: 50px;
+   margin-bottom: 16px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+   border: none;
+   color: grey;
+   outline: none;
+
+    }
+
+    footer .formcontainer .contactForm .input2{
+        margin-bottom: 16px;
+        font-size: 20px;
+padding: 8px;
+        width: 170%;
+        height: 50px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        border: none;
+        color: grey;
+        outline: none;
+
+
+         }
+
+
+         footer .formcontainer .contactForm .input3{
+            font-size: 20px;
+            padding: 8px;
+                    width: 170%;
+height: 120px;
+         resize: none;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+         border: none;
+         color: grey;
+         outline: none;
+         font-size: 16px;
+
+             }
+
+
+             .footer .formcontainer .contactForm .input1:focus,
+             .footer .formcontainer .contactForm .input2:focus,
+             .footer .formcontainer .contactForm .input3:focus {
+                border-color: blue; /* Change the border color when input is focused */
+            }
+             
+
+            footer .formcontainer button{
+                width: 145%;
+height: 32px;
+border: none;
+background-color: rgb(42, 42, 237);
+color: white;
+font-weight: bold;
+border-radius: 2px;
+padding: 8px;
+margin-top: 8px;
+font-size: 16px;
+                }

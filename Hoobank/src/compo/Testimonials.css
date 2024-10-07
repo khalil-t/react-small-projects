@@ -1,0 +1,162 @@
+.clients{
+    margin-top: 130px;
+}
+
+
+.clients .clientsa{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 80px;
+}
+.clients .clientsa .clientsh{
+
+ font-weight: 600;
+ font-size: 48px;
+}
+
+   .clients .clientsa .clientsd .clientsp{
+display: flex;
+align-items: center;
+justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #dddd;
+   }
+   .clients .clientsa .clientsd {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ddd;
+    width: 50%;
+
+   }
+  .clients .back2{bottom: 89%;
+    left: 0%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+    width: 170px;
+    height: 170px;
+    z-index: 0;}
+    .clients .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+
+    }
+
+
+    @media (min-width: 0px) and (max-width: 576px) {
+        .FeedbackCard {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-direction: column;
+            width: 370px;
+            margin-bottom: 10px;
+            padding: 19px 13px;
+            border-radius: 10px;
+            height: 395px;
+            transition: background-color 0.5s ease;
+        }
+        
+        
+        .clients .clientsa {
+          
+            display: none;
+        }
+        .clients .flex {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+        }
+        .CardDeal {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 2%;
+            margin-top: 10%;
+        }
+        .CardDeal .CardDeald .CardDealh {
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 36.8px;
+        }
+        .CardDeal .CardDeald .CardDealp {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            width: 100%;
+            color: #ddd;
+        }
+        
+    
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+       
+        .CardDeal .CardDeald .CardDealh {
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 48.8px;
+        }
+        .CardDeal .CardDeald .CardDealp {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            width: 70%;
+            color: #ddd;
+        }
+    
+        .clients .clientsa {
+          
+            display: none;
+        }
+        .clients .flex {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+        }
+    
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      
+        .clients {
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            margin-top: 130px;
+        }
+        .clients .clientsa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+            margin-bottom: 80px;
+            flex-direction: column;
+        }
+        .FeedbackCard {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            margin-bottom: 10px;
+            padding: 60px 40px;
+            border-radius: 10px;
+            height: 395px;
+            transition: background-color 0.5s ease;
+        }
+    }
